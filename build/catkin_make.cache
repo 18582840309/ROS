@@ -1,0 +1,2 @@
+learing:mbot-description:robot_description
+-DCATKIN_DEVEL_PREFIX=/home/cj/Desktop/ros/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/cj/Desktop/ros/catkin_ws/install -G Unix Makefiles

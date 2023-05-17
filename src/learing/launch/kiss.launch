@@ -1,0 +1,15 @@
+<launch>
+
+   <!--服务端节点-->
+    <group ns="server">
+       <node pkg="learing" name="server" type="kiss_server" output="screen"/>
+     </group>
+   
+   <!--接收端节点-->
+    <group ns="lient">
+       <node pkg="learing" name="client" type="kiss_client" output="screen"/>
+     </group>
+
+  
+   
+</launch>

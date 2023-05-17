@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/cj/Desktop/ros/catkin_ws/src/mbot-description/build/devel/setup.sh

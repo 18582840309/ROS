@@ -1,0 +1,8 @@
+#定义目标信息
+uint32 kiss_id
+---
+#定义目标结果
+uint32 total_kiss_kissed
+---
+#定义周期反馈信息
+float32 kiss_complete
