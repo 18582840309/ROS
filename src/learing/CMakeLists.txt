@@ -151,6 +151,10 @@ include_directories(
 # target_link_libraries(${PROJECT_NAME}_node
 #   ${catkin_LIBRARIES}
 # )
+add_executable(hello src/hellword.cpp)
+target_link_libraries(hello ${catkin_LIBRARIES})
+add_dependencies(hello learing_gencpp)
+
 add_executable(server src/server.cpp)
 target_link_libraries(server ${catkin_LIBRARIES})
 add_dependencies(server learing_gencpp)
