@@ -165,12 +165,12 @@ add_dependencies(client learing_gencpp)
 
 add_executable(kiss_server src/kiss_server.cpp)
 target_link_libraries(kiss_server ${catkin_LIBRARIES})
-# add_dependencies(kiss_server learing_gencpp)
+add_dependencies(kiss_server learing_gencpp)
 add_dependencies(kiss_server ${learing_EXPORTED_TARGETS})
 
 add_executable(kiss_client src/kiss_client.cpp)
 target_link_libraries(kiss_client ${catkin_LIBRARIES})
-# add_dependencies(kiss_client learing_gencpp)
+add_dependencies(kiss_client learing_gencpp)
 add_dependencies(kiss_client ${learing_EXPORTED_TARGETS})
 
 

@@ -6,10 +6,8 @@
      </group>
    
    <!--接收端节点-->
-    <group ns="lient">
+    <group ns="cient">
        <node pkg="learing" name="client" type="kiss_client" output="screen"/>
      </group>
 
-  
-   
 </launch>
