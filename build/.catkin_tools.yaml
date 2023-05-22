@@ -1,0 +1,6 @@
+devel_space: /home/cj/Desktop/ws_moveit/devel
+install: false
+install_space: /home/cj/Desktop/ws_moveit/install
+profile: default
+source_space: /home/cj/Desktop/ws_moveit/src
+workspace: /home/cj/Desktop/ws_moveit
