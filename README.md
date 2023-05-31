@@ -1,4 +1,6 @@
-ROS实验6---gazebo显示
+#### ROS实验6---gazebo显示
+
+```
 环境变量生效
 cd ~/ws_moveit/src
 rosdep install -y --from-paths . --ignore-src --rosdistro noetic
@@ -12,3 +14,7 @@ catkin build  #编译
 
 source devel/setup.bash 
 roslaunch panda_moveit_config demo_gazebo.launch 
+
+
+```
+
