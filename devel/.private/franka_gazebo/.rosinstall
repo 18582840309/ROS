@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/cj/Desktop/ws_moveit/devel/.private/franka_gazebo/setup.sh

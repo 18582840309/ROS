@@ -1,0 +1,1 @@
+/home/cj/Desktop/ws_moveit/devel/.private/franka_gazebo/lib/pkgconfig/franka_gazebo.pc
